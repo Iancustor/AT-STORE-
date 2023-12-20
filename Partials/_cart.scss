@@ -1,0 +1,112 @@
+#Cart-Section {
+  #cartContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    gap: 1rem;
+    place-items: center;
+    .cart {
+      background: #f1f0f0;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 39rem;
+      height: 9rem;
+      border-radius: 0.5rem;
+      margin-top: 1rem;
+
+      .imgcontainer {
+        object-fit: cover;
+
+        img {
+          width: 100px;
+          height: 100px;
+        }
+      }
+      .description {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .deleteBtn {
+        i {
+          font-size: 2.5rem;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1252px) {
+  #Cart-Section {
+    #cartContainer {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+      gap: 1rem;
+      place-items: center;
+      .cart {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 29rem;
+        height: 9rem;
+        margin-top: 1rem;
+
+        .imgcontainer {
+          object-fit: cover;
+
+          img {
+            width: 100px;
+            height: 100px;
+          }
+        }
+        .description {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+        }
+        .deleteBtn {
+          i {
+            font-size: 2.5rem;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 487.98px) {
+    #cartContainer {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+      gap: 1rem;
+      place-items: center;
+      .cart888 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 1rem;
+        height: 4rem;
+        margin-top: 1rem;
+
+        .imgcontainer {
+          object-fit: cover;
+
+          img {
+            width: 100px;
+            height: 100px;
+          }
+        }
+        .description {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+        }
+        .deleteBtn {
+          i {
+            font-size: 2.5rem;
+          }
+        }
+      }
+    }
+  }
+}

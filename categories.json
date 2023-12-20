@@ -1,0 +1,30 @@
+[
+  {
+    "id": 4,
+    "title": " Stock Groceries",
+    "category": "Groceries",
+    "image": "/images/groceries.jpg",
+    "description": "The best Fresh finds and great deals Exploring the aisles of deliciousness in AT Store Groceries. Stock Yours Now"
+  },
+  {
+    "id": 1,
+    "title": "Full Stock Packages",
+    "category": "smartphones",
+    "image": "/images/electronics.jpg",
+    "description": "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order. For that Experience "
+  },
+  {
+    "id": 2,
+    "title": "Premium Laptops 12Gen",
+    "category": "laptops",
+    "image": "./images/laptops.jpg",
+    "description": "The biggest enterprise technical Laptops of 2024 so far, they come with premium specifications and full year garantie. All At Store"
+  },
+  {
+    "id": 3,
+    "title": "Brand Black New Berries 2024",
+    "category": "fragrances",
+    "image": "./images/fragrances.jpg",
+    "description": "The natural Scent from berries comes with in a Brand of Black New Berries.   Eau De Toillete Fragrance For Women"
+  }
+]
